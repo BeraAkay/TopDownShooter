@@ -3,7 +3,7 @@
 A Top-down, roguelite, shooter game prototype
 
 ## Playable at: 
-https://beraakay.itch.io/topdownshooter
+[beraakay.itch.io/topdownshooter](https://beraakay.itch.io/topdownshooter)
 
 ### Password: topdownprototype
 
