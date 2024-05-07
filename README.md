@@ -1,6 +1,6 @@
 # TopDownShooter
 
-A Top-down, roguelike, shooter game prototype
+A Top-down, roguelite, shooter game prototype
 
 ## Playable at: 
 https://beraakay.itch.io/topdownshooter
