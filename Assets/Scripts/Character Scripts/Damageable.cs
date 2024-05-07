@@ -15,6 +15,8 @@ public class Damageable : MonoBehaviour, IDamageable
     [HideInInspector]
     public bool invulnerable = false;
 
+    bool dead = false;
+
 
     public virtual void TakeDamage(float damage)
     {
@@ -25,8 +27,9 @@ public class Damageable : MonoBehaviour, IDamageable
 
         stats[Stats.Types.CurrentHealth] -= damage * (1 - stats[Stats.Types.Mitigation]);
 
-        if(stats[Stats.Types.CurrentHealth] <= 0)
+        if(stats[Stats.Types.CurrentHealth] <= 0 && !dead)
         {
+            dead = true;
             Die();
         }
     }
