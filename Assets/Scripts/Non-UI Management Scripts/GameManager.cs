@@ -308,6 +308,16 @@ public class GameManager : MonoBehaviour
         }
         */
 
+        Cursor.visible = !focus;
+        if (focus)
+        {
+            Cursor.lockState = CursorLockMode.Confined;
+            //Cursor.lockState = CursorLockMode.Locked;
+        }
+        else
+        {
+            //Debug.Log("Application lost focus");
+        }
     }
 
     private void OnApplicationQuit()

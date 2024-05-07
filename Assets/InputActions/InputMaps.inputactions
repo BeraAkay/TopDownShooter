@@ -318,6 +318,17 @@
                 },
                 {
                     "name": "",
+                    "id": "ad741521-f82b-46b0-aa3f-22fe57291a6a",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard & Mouse",
+                    "action": "Escape",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "cd7c2f11-9160-4ed7-b917-c780aef22e9a",
                     "path": "<Gamepad>/start",
                     "interactions": "",
