@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17b50012cdf1e74f8276fe966a14910, type: 3}
+  m_Name: Scattergun
+  m_EditorClassIdentifier: 
+  name: Scattergun
+  level: 1
+  maxLevel: 5
+  description: My Little Friend
+  damage: 30
+  recoveryTime: 0.3
+  pelletsPerShot: 0
+  spread: 15
+  pelletSize: 0
+  pelletSpeed: 0
+  critModifier: 0
+  shotInterval: 0
+  pelletLifetime: 0
+  baseDamage: 5
+  baseRecoveryTime: 0.7
+  basePelletsPerShot: 15
+  baseSpread: 35
+  basePelletSize: 1
+  basePelletSpeed: 20
+  baseCritModifier: 1.5
+  baseShotInterval: 0
+  basePelletLifetime: 0.25
+  damageCap: 8
+  recoveryTimeCap: 0.4
+  pelletsPerShotCap: 30
+  spreadCap: 75
+  pelletSizeCap: 1.5
+  pelletSpeedCap: 40
+  critModifierCap: 4
+  shotIntervalCap: 0
+  pelletLifetimeCap: 0.25
+  sprite: {fileID: 6142373811710456136, guid: 11d8fbcf5141e8d41a97af4a23f354cf, type: 3}
+  enemySprite: {fileID: -7735229838517528527, guid: d68e08468003c794783f58145f20c947, type: 3}
+  pellet: {fileID: 4448916095072820918, guid: 8bd472ee8e27a3a43a1acf066dffa532, type: 3}
+  poolID: 4

@@ -1,0 +1,383 @@
+fileFormatVersion: 2
+guid: 6d0e77b0d47327644af3efb1a78d3836
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Head
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 761
+      y: 476
+      width: 139
+      height: 129
+    spriteID: fbbeee927354d204c92cb1eea9011c16
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 545, y: 119}
+  - name: Dead Outline Grey
+    originalName: 
+    pivot: {x: 0.4, y: 0.35}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 6
+      y: 0
+      width: 353
+      height: 607
+    spriteID: 02736c008a0a3f64096fe49632599a89
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: -740, y: 0}
+  - name: MeleeAttack
+    originalName: 
+    pivot: {x: 0.466, y: 0.894}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 563
+      y: 346
+      width: 192
+      height: 184
+    spriteID: 4619a72ebe33b2b49a5c7cf099b1ab90
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 365, y: 89}
+  - name: EmptyAttack
+    originalName: 
+    pivot: {x: 0.481, y: 0.838}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 365
+      y: 346
+      width: 188
+      height: 194
+    spriteID: a8c82eb7ec997fa428e67da33e20af16
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 170, y: 87}
+  - name: EmptyIdle
+    originalName: 
+    pivot: {x: 0.487, y: 0.564}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 561
+      y: 538
+      width: 192
+      height: 63
+    spriteID: 791657db7fb9eba42b3663b1ddf8fc1e
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 369, y: 154}
+  - name: MeleeIdle
+    originalName: 
+    pivot: {x: 0.479, y: 0.794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 761
+      y: 346
+      width: 202
+      height: 119
+    spriteID: 1ffcea5acd9e37043a6a3e16548d6741
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 568, y: 19}
+  - name: 2H Hip
+    originalName: 
+    pivot: {x: 0.526, y: 0.711}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 525
+      y: 4
+      width: 170
+      height: 261
+    spriteID: a1599d711cfdbba48995ef72248dd69a
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 329, y: -232}
+  - name: 1H Gun
+    originalName: 
+    pivot: {x: 0.477, y: 0.731}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 365
+      y: 4
+      width: 152
+      height: 334
+    spriteID: 0b7ea352b324fe14dbe898c9af271ae3
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 152, y: -184}
+  - name: 2H Stance
+    originalName: 
+    pivot: {x: 0.517, y: 0.725}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 703
+      y: 4
+      width: 170
+      height: 256
+    spriteID: 70ada6a8c85c20d4e96092b68e63d0d8
+    internalID: 0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 506, y: -232}
+  platformSettings: []
+  mosaicLayers: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 1024
+  importedTextureHeight: 1024
+  documentSize: {x: 1126, y: 611}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 1024
+  textureActualHeight: 1024
+  spritePackingTag: 
+  resliceFromLayer: 0
+  characterMode: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Head
+    spriteName: Head
+    isGroup: 0
+    parentIndex: -1
+    spriteID: fbbeee927354d204c92cb1eea9011c16
+    layerID: 0
+    mosaicPosition: {x: 761, y: 476}
+  - name: Dead Outline Grey
+    spriteName: Dead Outline Grey
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 02736c008a0a3f64096fe49632599a89
+    layerID: -1265193423
+    mosaicPosition: {x: 4, y: 4}
+  - name: MeleeAttack
+    spriteName: MeleeAttack
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4619a72ebe33b2b49a5c7cf099b1ab90
+    layerID: 1048762398
+    mosaicPosition: {x: 561, y: 346}
+  - name: EmptyAttack
+    spriteName: EmptyAttack
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a8c82eb7ec997fa428e67da33e20af16
+    layerID: 1737390569
+    mosaicPosition: {x: 365, y: 346}
+  - name: EmptyIdle
+    spriteName: EmptyIdle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 791657db7fb9eba42b3663b1ddf8fc1e
+    layerID: 1450801957
+    mosaicPosition: {x: 561, y: 538}
+  - name: MeleeIdle
+    spriteName: MeleeIdle
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1ffcea5acd9e37043a6a3e16548d6741
+    layerID: 656356416
+    mosaicPosition: {x: 761, y: 346}
+  - name: 2H Hip
+    spriteName: 2H Hip
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a1599d711cfdbba48995ef72248dd69a
+    layerID: 764280487
+    mosaicPosition: {x: 525, y: 4}
+  - name: 1H Gun
+    spriteName: 1H Gun
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0b7ea352b324fe14dbe898c9af271ae3
+    layerID: 1416389429
+    mosaicPosition: {x: 365, y: 4}
+  - name: 2H Stance
+    spriteName: 2H Stance
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 70ada6a8c85c20d4e96092b68e63d0d8
+    layerID: -1785528780
+    mosaicPosition: {x: 703, y: 4}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+  generateGOHierarchy: 0
+  textureAssetName: EnemySpriteSheet Texture
+  prefabAssetName: EnemySpriteSheet Prefab
+  spriteLibAssetName: EnemySpriteSheet Sprite Lib
+  secondarySpriteTextures: []

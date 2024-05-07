@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17b50012cdf1e74f8276fe966a14910, type: 3}
+  m_Name: Single
+  m_EditorClassIdentifier: 
+  name: Single
+  level: 1
+  maxLevel: 5
+  description: Revolver to Sniper Pipeline
+  damage: 75
+  recoveryTime: 0.3
+  pelletsPerShot: 0
+  spread: 0
+  pelletSize: 0
+  pelletSpeed: 0
+  critModifier: 0
+  shotInterval: 0
+  pelletLifetime: 0
+  baseDamage: 50
+  baseRecoveryTime: 0.6
+  basePelletsPerShot: 1
+  baseSpread: 3
+  basePelletSize: 1
+  basePelletSpeed: 24
+  baseCritModifier: 3
+  baseShotInterval: 0
+  basePelletLifetime: 0.5
+  damageCap: 120
+  recoveryTimeCap: 0.3
+  pelletsPerShotCap: 1
+  spreadCap: 0
+  pelletSizeCap: 1.1
+  pelletSpeedCap: 35
+  critModifierCap: 7
+  shotIntervalCap: 0
+  pelletLifetimeCap: 0.75
+  sprite: {fileID: -3342361470900409691, guid: 11d8fbcf5141e8d41a97af4a23f354cf, type: 3}
+  enemySprite: {fileID: -5823509660116927629, guid: d68e08468003c794783f58145f20c947, type: 3}
+  pellet: {fileID: 7895916456216142822, guid: 66d0ee4a0c000814a92874c0299eb6a4, type: 3}
+  poolID: 1

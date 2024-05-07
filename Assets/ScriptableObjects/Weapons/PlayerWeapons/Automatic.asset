@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17b50012cdf1e74f8276fe966a14910, type: 3}
+  m_Name: Automatic
+  m_EditorClassIdentifier: 
+  name: Automatic
+  level: 1
+  maxLevel: 5
+  description: Suppressing Fire
+  damage: 40
+  recoveryTime: 0.1
+  pelletsPerShot: 0
+  spread: 1
+  pelletSize: 0
+  pelletSpeed: 0
+  critModifier: 0
+  shotInterval: 0
+  pelletLifetime: 0
+  baseDamage: 10
+  baseRecoveryTime: 0.1
+  basePelletsPerShot: 1
+  baseSpread: 10
+  basePelletSize: 1
+  basePelletSpeed: 20
+  baseCritModifier: 1.5
+  baseShotInterval: 0
+  basePelletLifetime: 0.375
+  damageCap: 15
+  recoveryTimeCap: 0.03
+  pelletsPerShotCap: 1
+  spreadCap: 8
+  pelletSizeCap: 1.3
+  pelletSpeedCap: 30
+  critModifierCap: 4
+  shotIntervalCap: 0
+  pelletLifetimeCap: 0.5
+  sprite: {fileID: 6603468049041014151, guid: 11d8fbcf5141e8d41a97af4a23f354cf, type: 3}
+  enemySprite: {fileID: -1522208681322969439, guid: d68e08468003c794783f58145f20c947, type: 3}
+  pellet: {fileID: 2743630342029017171, guid: fe35549247389fd4686b419d13deadf6, type: 3}
+  poolID: 2
