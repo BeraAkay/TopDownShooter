@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour
 
         playerController = FindObjectOfType<PlayerController>();
 
-        Cursor.visible = false;
+        //Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Confined;
         
         persistentStats.CreateSheet();
@@ -135,7 +135,11 @@ public class GameManager : MonoBehaviour
     {
         paused = pause;
         Time.timeScale = pause ? 0 : 1;
-        Cursor.visible = pause;
+
+        //#if !UNITY_WEBGL
+        //Cursor.visible = pause;
+        //Cursor.lockState = pause ? CursorLockMode.Confined : CursorLockMode.None;
+        //#endif
 
         playerController.enabled = !pause;
     }
@@ -308,8 +312,8 @@ public class GameManager : MonoBehaviour
         }
         */
 
-        Cursor.visible = !focus;
-        if (focus)
+        //Cursor.visible = !focus;
+        /*if (focus)
         {
             Cursor.lockState = CursorLockMode.Confined;
             //Cursor.lockState = CursorLockMode.Locked;
@@ -317,7 +321,7 @@ public class GameManager : MonoBehaviour
         else
         {
             //Debug.Log("Application lost focus");
-        }
+        }*/
     }
 
     private void OnApplicationQuit()

@@ -42,7 +42,8 @@ public class Attacker : Damageable
 
             newPellet.GetComponent<PelletHitboxScript>().SetVals(weapon.poolID, pelletSpeed, damage, gameObject, weapon.pelletLifetime, weapon.pelletSize, crit);
             newPellet.SetActive(true);
-            yield return new WaitForSeconds(weapon.shotInterval);
+            if(weapon.shotInterval > 0)
+                yield return new WaitForSeconds(weapon.shotInterval);
         }
 
         recovering = true;

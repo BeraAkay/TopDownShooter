@@ -16,28 +16,28 @@ MonoBehaviour:
   level: 1
   maxLevel: 5
   description: My Little Friend
-  damage: 30
-  recoveryTime: 0.3
-  pelletsPerShot: 0
+  damage: 15
+  recoveryTime: 0.7
+  pelletsPerShot: 5
   spread: 15
-  pelletSize: 0
-  pelletSpeed: 0
-  critModifier: 0
+  pelletSize: 1
+  pelletSpeed: 30
+  critModifier: 1.5
   shotInterval: 0
-  pelletLifetime: 0
-  baseDamage: 5
+  pelletLifetime: 0.15
+  baseDamage: 15
   baseRecoveryTime: 0.7
-  basePelletsPerShot: 15
-  baseSpread: 35
+  basePelletsPerShot: 5
+  baseSpread: 15
   basePelletSize: 1
-  basePelletSpeed: 20
+  basePelletSpeed: 30
   baseCritModifier: 1.5
   baseShotInterval: 0
-  basePelletLifetime: 0.25
-  damageCap: 8
+  basePelletLifetime: 0.15
+  damageCap: 24
   recoveryTimeCap: 0.4
-  pelletsPerShotCap: 30
-  spreadCap: 75
+  pelletsPerShotCap: 10
+  spreadCap: 20
   pelletSizeCap: 1.5
   pelletSpeedCap: 40
   critModifierCap: 4

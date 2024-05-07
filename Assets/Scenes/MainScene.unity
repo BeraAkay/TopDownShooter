@@ -23460,12 +23460,12 @@ MonoBehaviour:
   - poolName: Burst Pellets
     type: 3
     poolObject: {fileID: 8730291729660315798, guid: 58c337126050ff24b8a940552f2d7ee5, type: 3}
-    capacity: 400
+    capacity: 200
     poolParent: {fileID: 0}
   - poolName: Scatter Pellets
     type: 4
     poolObject: {fileID: 4448916095072820918, guid: 8bd472ee8e27a3a43a1acf066dffa532, type: 3}
-    capacity: 1000
+    capacity: 200
     poolParent: {fileID: 0}
 --- !u!114 &1551444173
 MonoBehaviour:
@@ -23479,8 +23479,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0b4e8cd84d4824418e5d2f5360cf4fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  baseExp: 10
-  expScalingPerLevel: 10
+  baseExp: 20
+  expScalingPerLevel: 20
   playerLevel: 0
   playerExp: 0
   currentExpNeeded: 0
