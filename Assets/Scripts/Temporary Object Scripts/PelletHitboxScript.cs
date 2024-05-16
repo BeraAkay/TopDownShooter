@@ -15,6 +15,8 @@ public class PelletHitboxScript : MonoBehaviour
 
     ObjectPooler.Poolable poolID;
 
+    Vector3 defaultSize;
+
     void Start()
     {
         //GetComponent<CapsuleCollider2D>().enabled = false;
@@ -42,7 +44,9 @@ public class PelletHitboxScript : MonoBehaviour
 
         lifetime = _lifetime;
 
+        defaultSize = transform.localScale;
         transform.localScale *= size;
+
         poolID = id;
     }
 
@@ -79,6 +83,7 @@ public class PelletHitboxScript : MonoBehaviour
     {
         yield return new WaitForSeconds(_lifetime);
 
+        transform.localScale = defaultSize;
         GameManager.Pooler.poolDict[poolID].ReturnObject(gameObject);
         //if (gameObject)
         //    Destroy(gameObject);
