@@ -12,3 +12,4 @@ A Top-down, roguelite, shooter game prototype
 - Upgradable Weapon system
 - Stat Sheet system with upgrades
 - Simple persistence for the stat and weapon upgrades
+- Object pooling system
